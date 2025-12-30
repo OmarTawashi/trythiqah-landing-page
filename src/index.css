@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+  
+  /* Force RTL for Arabic */
+  html[dir="rtl"],
+  body[dir="rtl"] {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] * {
+    direction: inherit;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-sm font-medium text-gray-700 hover:text-primary-600 transition;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold border-2 border-primary-600 hover:bg-primary-50 transition-colors duration-200;
+  }
+}
+
+/* RTL Specific Styles */
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+[dir="rtl"] * {
+  direction: inherit;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right !important;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left !important;
+}
+
+[dir="rtl"] .text-center {
+  text-align: center;
+}
+
+/* Margin utilities for RTL */
+[dir="rtl"] .ml-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+[dir="rtl"] .ml-2 {
+  margin-left: 0 !important;
+  margin-right: 0.5rem !important;
+}
+
+[dir="rtl"] .mr-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+/* Padding utilities for RTL */
+[dir="rtl"] .pl-4 {
+  padding-left: 0 !important;
+  padding-right: 1rem !important;
+}
+
+[dir="rtl"] .pr-4 {
+  padding-right: 0 !important;
+  padding-left: 1rem !important;
+}
+
+/* Flex direction for RTL */
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+/* Arrow icons reverse in RTL - right pointing arrows should point left */
+[dir="rtl"] svg[class*="arrow"],
+[dir="rtl"] .inline-flex svg:last-child {
+  transform: scaleX(-1);
+}
+
+/* Space between items */
+[dir="rtl"] .space-x-8 > * + * {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+[dir="rtl"] .space-x-4 > * + * {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+[dir="rtl"] .space-x-2 > * + * {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
