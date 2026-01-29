@@ -87,6 +87,28 @@ export const translations = {
     readArticle: 'Read Article',
     previous: '« Previous',
     next: 'Next »',
+    
+    // Signup
+    signupTitle: 'Try Thiqah Firsthand - With No Obligations!',
+    signupSubtitle: 'Get in touch with us to get a customized demo and an introduction to all Thiqah features and solutions.',
+    signupBenefitsTitle: 'Let us help you get started with the right tools for your business.',
+    signupBenefit1: 'Fill out the form and a Thiqah specialist will reach out to you within 24 hours to schedule your demo.',
+    signupBenefit2: 'Your demo will include a customized walkthrough of Thiqah catered to your restaurant\'s unique needs.',
+    signupBenefit3: 'We\'ll follow up with a price quote built just for you based on your ideal hardware and software.',
+    signupFormTitle: 'Create your Thiqah account',
+    restaurantName: 'Restaurant Name',
+    subdomain: 'Subdomain',
+    subdomainHelper: 'This will be your restaurant\'s unique web address',
+    fullName: 'Your Full Name',
+    email: 'Enter your email',
+    phone: 'Phone',
+    phoneDetected: 'Phone code +972 detected based on your location',
+    password: 'Password',
+    alreadyRegistered: 'Already registered? Login here',
+    submit: 'Submit',
+    errorRequired: 'Please complete this required field',
+    errorEmailInvalid: 'Please enter a valid email address',
+    errorAllFields: 'Please complete all required fields',
   },
   ar: {
     // Header
@@ -176,6 +198,28 @@ export const translations = {
     readArticle: 'اقرأ المقال',
     previous: '« السابق',
     next: 'التالي »',
+    
+    // Signup
+    signupTitle: 'جرب Thiqah بنفسك - بدون التزامات!',
+    signupSubtitle: 'تواصل معنا للحصول على عرض توضيحي مخصص ومقدمة لجميع ميزات وحلول Thiqah.',
+    signupBenefitsTitle: 'دعنا نساعدك في البدء بالأدوات المناسبة لعملك.',
+    signupBenefit1: 'املأ النموذج وسيتواصل معك أخصائي Thiqah في غضون 24 ساعة لجدولة العرض التوضيحي الخاص بك.',
+    signupBenefit2: 'سيشمل العرض التوضيحي الخاص بك جولة مخصصة لـ Thiqah مصممة خصيصًا لاحتياجات مطعمك الفريدة.',
+    signupBenefit3: 'سنتابع معك عرض أسعار مبني خصيصًا لك بناءً على الأجهزة والبرامج المثالية الخاصة بك.',
+    signupFormTitle: 'إنشاء حساب Thiqah الخاص بك',
+    restaurantName: 'اسم المطعم',
+    subdomain: 'النطاق الفرعي',
+    subdomainHelper: 'سيكون هذا عنوان الويب الفريد لمطعمك',
+    fullName: 'اسمك الكامل',
+    email: 'أدخل بريدك الإلكتروني',
+    phone: 'الهاتف',
+    phoneDetected: 'تم اكتشاف رمز الهاتف +972 بناءً على موقعك',
+    password: 'كلمة المرور',
+    alreadyRegistered: 'مسجل بالفعل؟ تسجيل الدخول هنا',
+    submit: 'إرسال',
+    errorRequired: 'يرجى إكمال هذا الحقل المطلوب',
+    errorEmailInvalid: 'يرجى إدخال بريد إلكتروني صحيح',
+    errorAllFields: 'يرجى إكمال جميع الحقول المطلوبة',
   }
 }
 

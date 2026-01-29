@@ -66,9 +66,9 @@ const Header = () => {
               {t.login}
             </a>
 
-            <button className="btn-primary">
+            <Link to="/signup" className="btn-primary">
               {t.getDemo}
-            </button>
+            </Link>
           </div>
 
           {/* CENTER / NAV */}
